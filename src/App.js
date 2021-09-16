@@ -1,7 +1,12 @@
-import "./App.css";
+import { Fragment } from "react";
+import Header from "./Layouts/Header/Header";
 
 function App() {
-  return <div>Do-it App</div>;
+  return (
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 }
 
 export default App;
