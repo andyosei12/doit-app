@@ -1,10 +1,12 @@
 import { Fragment } from "react";
-import Header from "./Layouts/Header/Header";
+import MainHeader from "./Layouts/Header/MainHeader";
+import SecondaryHeader from "./Layouts/Header/SecondaryHeader";
 
 function App() {
   return (
     <Fragment>
-      <Header />
+      <MainHeader />
+      <SecondaryHeader />
     </Fragment>
   );
 }

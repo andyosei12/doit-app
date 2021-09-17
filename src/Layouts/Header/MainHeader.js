@@ -1,4 +1,4 @@
-import styles from "../../styles/Header/Header.module.css";
+import styles from "../../styles/MainHeader/MainHeader.module.css";
 import icons from "../../assets/images/sprite.svg";
 
 const Header = (props) => {

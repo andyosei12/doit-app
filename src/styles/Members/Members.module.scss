@@ -1,0 +1,33 @@
+.members {
+  display: flex;
+  align-items: center;
+
+  &__list {
+    border-right: 3px solid var(--color-grey-dark-4);
+    padding-right: 3rem;
+
+    &-add {
+      padding-left: 3rem;
+      color: var(--color-secondary);
+      cursor: pointer;
+
+      & h3 {
+        font-weight: 700;
+        font-size: 1.5rem;
+
+        & span {
+          margin-right: 1rem;
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+  &__image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-sizing: content-box;
+    margin-left: -1rem;
+  }
+}
