@@ -1,0 +1,40 @@
+.header {
+  height: 5rem;
+  padding-inline: 4rem;
+  border-bottom: 3px solid var(--color-grey-dark-4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__title--main {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-right: 1.5rem;
+}
+
+.header__title--sub {
+  background-color: var(--color-secondary);
+  color: var(--color-grey-light-1);
+  padding: 0.3rem 1.5rem;
+}
+
+.header__title--sub span {
+  margin-left: 0.9rem;
+}
+/*# sourceMappingURL=SecondaryHeader.module.css.map */
