@@ -1,0 +1,21 @@
+.button {
+  cursor: pointer;
+  font-size: 1.35rem;
+  letter-spacing: 1px;
+  padding: 0.7rem 1rem;
+  border: none;
+  color: var(--color-grey-light-1);
+  background-color: var(--color-secondary);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+  }
+
+  &:active {
+    outline: none;
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.2);
+  }
+}
