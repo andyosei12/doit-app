@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import MainContent from "./Layouts/MainContent/MainContent";
 import MainHeader from "./Layouts/Header/MainHeader";
 import SecondaryHeader from "./Layouts/Header/SecondaryHeader";
 import MainContentNav from "./Layouts/MainContent/MainContentNav";
@@ -11,6 +12,7 @@ function App() {
       <SecondaryHeader />
       <MainContentWrapper>
         <MainContentNav />
+        <MainContent />
       </MainContentWrapper>
     </Fragment>
   );
