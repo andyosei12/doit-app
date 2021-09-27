@@ -3,6 +3,7 @@ import {
   ItemsWrapper,
   MainContentWrapper,
 } from "../../components/styles/MainContent/MainContent.styled";
+import Task from "../../components/Tasks";
 
 const MainContent = (props) => {
   return (
@@ -11,6 +12,8 @@ const MainContent = (props) => {
         <Header>
           To do <span>3</span>
         </Header>
+        <Task />
+        <Task />
       </ItemsWrapper>
       <ItemsWrapper>
         <Header>
