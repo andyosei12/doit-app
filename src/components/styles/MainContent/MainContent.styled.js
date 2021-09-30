@@ -9,7 +9,7 @@ export const MainContentWrapper = styled.div`
 export const ItemsWrapper = styled.div`
   flex: 0 0 23%;
   background-color: var(--color-grey-light-1);
-  /* height: 47rem; */
+  min-height: 47rem;
 
   &::not(::last-child) {
     margin-right: 1.5rem;

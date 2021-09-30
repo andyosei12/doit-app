@@ -6,13 +6,10 @@ const Task = (props) => {
     <TaskCard>
       <TaskBg>
         <TaskHeader>
-          <h3>Design and Development with the sales</h3>
+          <h3>{props.title}</h3>
           <h1>&mdash;</h1>
         </TaskHeader>
-        <TaskContent>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </TaskContent>
+        <TaskContent>{props.description}</TaskContent>
       </TaskBg>
     </TaskCard>
   );
