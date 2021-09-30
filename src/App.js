@@ -1,4 +1,5 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
+import TaskContextProvider from "./store/TaskContextProvider";
 import MainContent from "./Layouts/MainContent/MainContent";
 import MainHeader from "./Layouts/Header/MainHeader";
 import SecondaryHeader from "./Layouts/Header/SecondaryHeader";
@@ -16,7 +17,7 @@ function App() {
     setOpenModal(false);
   };
   return (
-    <Fragment>
+    <TaskContextProvider>
       {openModal && (
         <TaskForm onCloseModal={closeModalHandler}>I am open</TaskForm>
       )}
@@ -26,7 +27,7 @@ function App() {
         <MainContentNav onOpenModal={openModalHandler} />
         <MainContent />
       </MainContentWrapper>
-    </Fragment>
+    </TaskContextProvider>
   );
 }
 
