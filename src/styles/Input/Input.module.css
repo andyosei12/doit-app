@@ -1,0 +1,32 @@
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.input__label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.input__field {
+  padding: 1rem;
+  width: 80%;
+  background-color: var(--color-grey-light-1);
+  border: 1px solid var(--color-grey-dark-4);
+  color: var(--color-grey-dark-1);
+  font-size: 1.5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input__field:focus {
+  outline: none;
+}
+/*# sourceMappingURL=Input.module.css.map */
