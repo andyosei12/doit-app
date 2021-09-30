@@ -6,7 +6,7 @@ const MainContentNav = (props) => {
   return (
     <div className={styles["main-content__nav"]}>
       <SearchInput />
-      <PrimaryButton>+ New Item</PrimaryButton>
+      <PrimaryButton onOpenModal={props.onOpenModal}>+ New Item</PrimaryButton>
     </div>
   );
 };
