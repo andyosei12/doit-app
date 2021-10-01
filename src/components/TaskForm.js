@@ -15,12 +15,10 @@ const TaskForm = (props) => {
 
   const submitFormHandler = (event) => {
     event.preventDefault();
-    console.log(descriptionRef.current.value.trim().length);
-    if (titleRef.current.value.trim().length === 0) {
-      setIsFormValid(false);
-      return;
-    }
-    if (descriptionRef.current.value.trim().length === 0) {
+    if (
+      titleRef.current.value.trim().length === 0 ||
+      descriptionRef.current.value.trim().length === 0
+    ) {
       setIsFormValid(false);
       return;
     }
