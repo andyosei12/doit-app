@@ -6,10 +6,8 @@ import MoveTask from "./UI/MoveTask";
 
 const Task = (props) => {
   const [showMoveCard, setShowMoveCard] = useState(false);
-  // const taskCtx = useContext(TaskContext);
   const showMoveCardHandler = () => {
-    // taskCtx.items.filter((item) => item.id === props.id);
-    setShowMoveCard(true);
+    setShowMoveCard((prevState) => !prevState);
   };
   const closeMoveCardHandler = () => {
     setShowMoveCard(false);

@@ -18,9 +18,7 @@ function App() {
   };
   return (
     <TaskContextProvider>
-      {openModal && (
-        <TaskForm onCloseModal={closeModalHandler}>I am open</TaskForm>
-      )}
+      {openModal && <TaskForm onCloseModal={closeModalHandler} />}
       <MainHeader />
       <SecondaryHeader />
       <MainContentWrapper>
